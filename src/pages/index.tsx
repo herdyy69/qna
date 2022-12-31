@@ -9,7 +9,6 @@ import { useState, useEffect } from 'react';
 
 
 
-import * as firebase from "firebase/app";
 import { initializeApp } from "firebase/app";
 import { getDatabase , ref , get , set , onValue } from "firebase/database";
 import type { NextPage } from 'next';
